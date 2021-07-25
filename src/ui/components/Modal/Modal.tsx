@@ -1,4 +1,3 @@
-import useLocalStorage from '../../../data/hooks/useLocalStorage';
 import { useState, useEffect } from 'react';
 import './Modal.css';
 
