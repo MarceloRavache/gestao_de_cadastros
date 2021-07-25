@@ -1,0 +1,85 @@
+.app__header {
+    height: 700px;
+    width: 100%;
+    background-color: #219ebc;
+    grid-template-columns: 300px 800px 400px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: ". content conectar .";
+    display: grid;
+    align-items: center;
+}
+.app__header-content {
+    grid-area: content;
+    color: white;
+    font-size: 30px;
+}
+.app__header-conectar {
+    width: 400px;
+    height: 200px;
+    grid-area: conectar;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.app__header-conectar input {
+    height: 40px;
+    border: 0xp;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+.app__header-conectar button {
+    height: 40px;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 300px;
+    background-color: #8ecae6;
+    color: white;
+}
+
+.app__main {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__main-products{
+    display: flex;
+    gap: 40px;
+}
+.app__main-product {
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 16px black;
+}
+.app__main-product h3 {
+    font-size: 20px;
+    color: black;
+}
+.app__main-product h5 {
+    font-size: 14px;
+    color: black;
+}
+.app__main-product img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+.app__main-product button {
+    width: 300px;
+    height: 80px;
+    background-color: green;
+    border-radius: 40px;
+    font-size: 26px;
+    color: white;
+    border: 0px;
+}
