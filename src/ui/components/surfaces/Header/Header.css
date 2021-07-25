@@ -1,0 +1,33 @@
+.menu {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #219ebc;
+}
+.menu__logo {
+    width: 200px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu__links {
+    display: flex;
+    height: 100%;
+}
+.menu__link {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    cursor: pointer;
+    color: white;
+}
+.menu__link:hover {
+    background-color: #8ecae6;
+}
