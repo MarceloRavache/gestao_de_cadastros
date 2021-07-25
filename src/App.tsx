@@ -35,7 +35,7 @@ function App() {
         estado:estado.current?.value
       }
     );
-  },[]);
+  },[setUser]);
   const submitBuy = useCallback((value) => {
     const carrinho = localStorage.getItem("@carrinho");
     if(carrinho){
@@ -56,7 +56,7 @@ function App() {
 
   const handleLogout = useCallback(() => {
     setUser({});
-  },[]);
+  },[setUser]);
 
   return (
     <div>
